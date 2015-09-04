@@ -1,0 +1,32 @@
+{
+	"name": "habe",
+	"description": "Handlebars Helper Library",
+	"version": "1.0.0",
+	"homepage": "https://github.com/fleephub/habe.js",
+	"license": "MIT",
+	"author": {
+		"name": "Marko Kreen",
+		"email": "marko@fleep.io",
+		"url": "https://fleep.io"
+	},
+	"repository": { "type": "git", "url": "https://github.com/fleephub/habe" },
+	"bugs": { "url": "https://github.com/fleephub/habe/issues" },
+	"scripts": { "test": "grunt" },
+	"keywords": [
+		"template",
+		"mustache",
+		"handlebars",
+		"html",
+		"browser",
+		"secure",
+		"safe",
+		"noeval"
+	],
+	"devDependencies": {
+		"grunt-node-qunit": "~2.0.0",
+		"grunt-contrib-uglify": "~0.5.0",
+		"grunt-contrib-jshint": "~0.10.0",
+		"grunt-contrib-nodeunit": "~0.4.0",
+		"grunt": "~0.4.5"
+	}
+}
